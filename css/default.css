@@ -1,0 +1,58 @@
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+* {
+    font-size:12px;
+    line-height: 14px;
+    font-family: monospace;
+    background:#1b1b1b;
+    color:#30BC6D;
+    outline:0;
+    text-shadow: 0 0 0 !important;
+}
+
+#wrapper {
+    margin: auto;
+    padding: 10px;
+    font-size:13px;
+}
+
+#terminal {
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+}
+
+#stdin {
+    outline:0;
+    border:0;
+    background:transparent;
+    font-family: monospace;
+}
+
+#prompt {
+    display:inline-block;
+    color:#E1E5EA;
+}
+
+p {
+    margin:0;
+}
+
+.stdout-green {
+    color:#30BC6D;
+}
+
+.stdout-grey {
+    color:#B3BDCB;
+}
+
+.stdout-white {
+    color:#E1E5EA;
+}
+
+.stdout-red {
+    color:#CC575D;
+}
